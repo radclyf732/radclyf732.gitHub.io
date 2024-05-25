@@ -1,6 +1,2 @@
-node_modules/
-public/
-resources/
-.hugo_build.lock
-hugo_stats.json
-content/**/*.jpg
+node_modules
+.DS_Store
