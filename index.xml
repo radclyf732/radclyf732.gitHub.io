@@ -2,48 +2,39 @@
 <rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo Gallery on Gallery</title>
-    <link>//localhost:1313/</link>
+    <link>/</link>
     <description>Recent content in Hugo Gallery on Gallery</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>user@example.com (Your Name)</managingEditor>
     <webMaster>user@example.com (Your Name)</webMaster>
     <copyright>© Your Name</copyright>
-    <lastBuildDate>Sat, 01 Apr 2023 00:00:00 +0200</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Fashion &amp; Beauty</title>
-      <link>//localhost:1313/fashion-beauty/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>user@example.com (Your Name)</author>
-      <guid>//localhost:1313/fashion-beauty/</guid><media:content url="//localhost:1313/fashion-beauty/mina-rad-V94CguEmeos-unsplash_hu5459c0360c2b0cb7a147d2df0eb350ca_207553_900x600_fill_q75_catmullrom_smart1.jpg" type="image/jpeg"/>
-        <description>
-          &lt;img src=&quot;//localhost:1313/fashion-beauty/mina-rad-V94CguEmeos-unsplash_hu5459c0360c2b0cb7a147d2df0eb350ca_207553_900x600_fill_q75_catmullrom_smart1.jpg&quot; /&gt;
-          &lt;p&gt;Fashion and Beauty are a powerful form of self-expression. This category documents style through inspiring shots of street fashion, skincare products, avant-garde editorial photographs, and more.&lt;/p&gt;
-        </description></item>
+    <lastBuildDate>Sat, 01 Apr 2023 00:00:00 +0200</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nature</title>
-      <link>//localhost:1313/nature/</link>
+      <link>/nature/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>user@example.com (Your Name)</author>
-      <guid>//localhost:1313/nature/</guid><media:content url="//localhost:1313/nature/azzedine-rouichi-ZS_XuDZmxpM-unsplash_hu5459c0360c2b0cb7a147d2df0eb350ca_811244_900x600_fill_q75_catmullrom_smart1.jpg" type="image/jpeg"/>
+      <guid>/nature/</guid><media:content url="/nature/azzedine-rouichi-ZS_XuDZmxpM-unsplash_hu5459c0360c2b0cb7a147d2df0eb350ca_811244_900x600_fill_q75_catmullrom_smart1.jpg" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;//localhost:1313/nature/azzedine-rouichi-ZS_XuDZmxpM-unsplash_hu5459c0360c2b0cb7a147d2df0eb350ca_811244_900x600_fill_q75_catmullrom_smart1.jpg&quot; /&gt;
+          &lt;img src=&quot;/nature/azzedine-rouichi-ZS_XuDZmxpM-unsplash_hu5459c0360c2b0cb7a147d2df0eb350ca_811244_900x600_fill_q75_catmullrom_smart1.jpg&quot; /&gt;
           &lt;p&gt;Through photography, the beauty of Mother Nature can be frozen in time. This category celebrates the magic of our planet and beyond — from the immensity of the great outdoors, to miraculous moments in your own backyard.&lt;/p&gt;
         </description></item>
     <item>
       <title>Cats</title>
-      <link>//localhost:1313/animals/cats/</link>
+      <link>/animals/cats/</link>
       <pubDate>Sat, 01 Apr 2023 00:00:00 +0200</pubDate><author>user@example.com (Your Name)</author>
-      <guid>//localhost:1313/animals/cats/</guid><media:content url="//localhost:1313/animals/cats/manja-vitolic-gKXKBY-C-Dk-unsplash_hu5459c0360c2b0cb7a147d2df0eb350ca_264089_900x600_fill_q75_catmullrom_smart1.jpg" type="image/jpeg"/>
+      <guid>/animals/cats/</guid><media:content url="/animals/cats/1716657848288_hu30b70f73f94a7bc92105fd1b98847105_3530560_900x600_fill_q75_catmullrom_smart1.jpg" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;//localhost:1313/animals/cats/manja-vitolic-gKXKBY-C-Dk-unsplash_hu5459c0360c2b0cb7a147d2df0eb350ca_264089_900x600_fill_q75_catmullrom_smart1.jpg&quot; /&gt;
+          &lt;img src=&quot;/animals/cats/1716657848288_hu30b70f73f94a7bc92105fd1b98847105_3530560_900x600_fill_q75_catmullrom_smart1.jpg&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>Dogs</title>
-      <link>//localhost:1313/animals/dogs/</link>
+      <link>/animals/dogs/</link>
       <pubDate>Thu, 12 Jan 2023 00:00:00 +0100</pubDate><author>user@example.com (Your Name)</author>
-      <guid>//localhost:1313/animals/dogs/</guid><media:content url="//localhost:1313/animals/dogs/milli-2l0CWTpcChI-unsplash_hu5459c0360c2b0cb7a147d2df0eb350ca_236987_900x600_fill_q75_catmullrom_smart1.jpg" type="image/jpeg"/>
+      <guid>/animals/dogs/</guid><media:content url="/animals/dogs/milli-2l0CWTpcChI-unsplash_hu5459c0360c2b0cb7a147d2df0eb350ca_236987_900x600_fill_q75_catmullrom_smart1.jpg" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;//localhost:1313/animals/dogs/milli-2l0CWTpcChI-unsplash_hu5459c0360c2b0cb7a147d2df0eb350ca_236987_900x600_fill_q75_catmullrom_smart1.jpg&quot; /&gt;
+          &lt;img src=&quot;/animals/dogs/milli-2l0CWTpcChI-unsplash_hu5459c0360c2b0cb7a147d2df0eb350ca_236987_900x600_fill_q75_catmullrom_smart1.jpg&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
   </channel>
