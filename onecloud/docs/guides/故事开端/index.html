@@ -1,0 +1,577 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="preload" href="http://localhost:1313/fonts/vendor/jost/jost-v4-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="http://localhost:1313/fonts/vendor/jost/jost-v4-latin-500.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="http://localhost:1313/fonts/vendor/jost/jost-v4-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+<script 
+  src="/js/color-mode.f14b3e296de1d0b69e75af684b62a4a912a2cadab04e36123407cd8388204f1d.js"
+  integrity="sha256-8Us&#43;KW3h0Laeda9oS2KkqRKiytqwTjYSNAfNg4ggTx0=">
+</script>
+
+
+<link rel="stylesheet" href="/main.1629dbd479bc910e69cb7aad3a869d4e4f923450d3d226fcdc77e1c0ca8f0b1dc6815ab3e849bd3d664a681a7bbfa59ff34b416c2eadf684c892e9fa694c404e.css" integrity="sha512-Finb1Hm8kQ5py3qtOoadTk&#43;SNFDT0ib83HfhwMqPCx3GgVqz6Em9PWZKaBp7v6Wf80tBbC6t9oTIkun6aUxATg==" crossorigin="anonymous">
+
+<noscript><style>img.lazyload { display: none; }</style></noscript><base href="http://localhost:1313/docs/guides/%E6%95%85%E4%BA%8B%E5%BC%80%E7%AB%AF/">
+  <link rel="canonical" href="http://localhost:1313/docs/guides/%E6%95%85%E4%BA%8B%E5%BC%80%E7%AB%AF/">
+<title>故事开端  |  My Docs</title>
+<meta name="description" content="Congrats on setting up a new Doks project!">
+
+    
+    <link rel="icon" href="/favicon.ico" sizes="32x32">
+    
+      <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    
+      <link
+        rel="apple-touch-icon"
+        href="/apple-touch-icon.png"
+        sizes="180x180"
+        type="image/png"
+      >
+      <link
+        rel="icon"
+        href="/favicon-192x192.png"
+        sizes="192x192"
+        type="image/png"
+      >
+      <link
+        rel="icon"
+        href="/favicon-512x512.png"
+        sizes="512x512"
+        type="image/png"
+      >
+<link rel="manifest" href="/manifest.webmanifest">
+<meta property="og:title" content="故事开端">
+<meta property="og:description" content="2017年10月31日,迅雷旗下全新一代共享经济智能硬件——玩客云战略发布会在北京举办，当天迅雷CEO、网心科技CEO陈磊宣布，迅雷将自玩客云开始，全面迈入“共享计算”全新战略布局时代。陈磊称，未来迅雷将持续加大对共享计算的探索，并将在为B端企业客户提供服务的同时，向所有普通个人用户开放共享计算服务1。
+如果当时的你买了一台玩客云将它连接硬盘加入链克计划，那么你的设备加硬盘就相当于一个小型的CDN服务器，它会接受相应的下载请求或网络缓存请求，这些缓存将为你周围的上网用户提供网络加速。
+当然这些下载或缓存任务是由迅雷网心提供的，网心科技将用户提供的CDN资源进行整合打包出售给企业用户（XX直播，XXTV），而作为提供CDN的用户可以得到相应的代币（链克）作为报酬，而这些代币就是基于区块链技术（不可增发，无法伪造）生成的，用户可以选择将其进行出售或交换。
+这可以说是一个互利的模式：用户提供限制的网络带宽获取代币，网心通过将用户提供的CDN资源整合进行出售2。 这玩意就是，于2023年3月4日收自海鲜市场这台迅雷发布的矿机，可以作为个人存储使用。定价599，还一度供不应求，最疯狂的时候黄牛二手炒到2000多。
+后期就是逐渐凉凉，先是跟“子公司”迅雷金融（已改名）撕了一架，导致币价下挫，迅雷网心被互金协会点名指出其实在变相进行ICO，网心科技随即对链克进行“自宫”，关闭了链克在国内的提币功能2。
+时间慢慢过去，大批玩家退出，大量二手设备流入市场。终于，在2024年1月2日时玩客云官网也发布了公告，宣布于同年2月29日停止APP支持3。宣告其作为“个人存储”也凉到透底。
+大批低价的设备到越来越多人手里，依靠社区和开源的力量，这款机器被开发了许多用途：轻NAS、电视盒子、旁路由、打印服务器等等。虽然性能有限，
+但是它的价格只需50多！啥都能玩！ 参考 https://www.51cto.com/article/556042.html&#160;&#x21a9;&#xfe0e;
+https://www.ithome.com/0/345/999.htm&#160;&#x21a9;&#xfe0e;&#160;&#x21a9;&#xfe0e;
+https://wky.onethingcloud.com/&#160;&#x21a9;&#xfe0e;">
+<meta property="og:type" content="article">
+<meta property="og:url" content="http://localhost:1313/docs/guides/%E6%95%85%E4%BA%8B%E5%BC%80%E7%AB%AF/"><meta property="og:image" content="http://localhost:1313/cover.png"><meta property="article:section" content="docs">
+<meta property="article:published_time" content="2024-05-13T13:05:04+08:00">
+<meta property="article:modified_time" content="2024-05-13T13:05:04+08:00"><meta property="og:site_name" content="My Docs">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/cover.png"><meta name="twitter:title" content="故事开端">
+<meta name="twitter:description" content="2017年10月31日,迅雷旗下全新一代共享经济智能硬件——玩客云战略发布会在北京举办，当天迅雷CEO、网心科技CEO陈磊宣布，迅雷将自玩客云开始，全面迈入“共享计算”全新战略布局时代。陈磊称，未来迅雷将持续加大对共享计算的探索，并将在为B端企业客户提供服务的同时，向所有普通个人用户开放共享计算服务1。
+如果当时的你买了一台玩客云将它连接硬盘加入链克计划，那么你的设备加硬盘就相当于一个小型的CDN服务器，它会接受相应的下载请求或网络缓存请求，这些缓存将为你周围的上网用户提供网络加速。
+当然这些下载或缓存任务是由迅雷网心提供的，网心科技将用户提供的CDN资源进行整合打包出售给企业用户（XX直播，XXTV），而作为提供CDN的用户可以得到相应的代币（链克）作为报酬，而这些代币就是基于区块链技术（不可增发，无法伪造）生成的，用户可以选择将其进行出售或交换。
+这可以说是一个互利的模式：用户提供限制的网络带宽获取代币，网心通过将用户提供的CDN资源整合进行出售2。 这玩意就是，于2023年3月4日收自海鲜市场这台迅雷发布的矿机，可以作为个人存储使用。定价599，还一度供不应求，最疯狂的时候黄牛二手炒到2000多。
+后期就是逐渐凉凉，先是跟“子公司”迅雷金融（已改名）撕了一架，导致币价下挫，迅雷网心被互金协会点名指出其实在变相进行ICO，网心科技随即对链克进行“自宫”，关闭了链克在国内的提币功能2。
+时间慢慢过去，大批玩家退出，大量二手设备流入市场。终于，在2024年1月2日时玩客云官网也发布了公告，宣布于同年2月29日停止APP支持3。宣告其作为“个人存储”也凉到透底。
+大批低价的设备到越来越多人手里，依靠社区和开源的力量，这款机器被开发了许多用途：轻NAS、电视盒子、旁路由、打印服务器等等。虽然性能有限，
+但是它的价格只需50多！啥都能玩！ 参考 https://www.51cto.com/article/556042.html&#160;&#x21a9;&#xfe0e;
+https://www.ithome.com/0/345/999.htm&#160;&#x21a9;&#xfe0e;&#160;&#x21a9;&#xfe0e;
+https://wky.onethingcloud.com/&#160;&#x21a9;&#xfe0e;">
+<meta name="twitter:site" content="@getdoks">
+
+    
+    
+    <script type="application/ld+json">
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+     {
+       "@type": "ListItem",
+       "item": "http://localhost:1313/",
+       "name": "Welcome to Lzy's Web",
+       "position": 1
+     },
+     {
+       "@type": "ListItem",
+       "item": "http://localhost:1313/docs/",
+       "name": "Docs",
+       "position": 2
+     },
+     {
+       "@type": "ListItem",
+       "item": "http://localhost:1313/docs/guides/",
+       "name": "玩客云折腾日记",
+       "position": 3
+     },
+     {
+       "@type": "ListItem",
+       "name": "故事开端",
+       "position": 4
+     }
+   ]
+ }
+</script>
+
+
+
+
+
+</head>
+
+  
+  <body class="single section docs" data-bs-spy="scroll" data-bs-target="#toc" data-bs-root-margin="0px 0px -60%" data-bs-smooth-scroll="true" tabindex="0">
+    <div class="sticky-top">
+<header class="navbar navbar-expand-lg">
+  <div class="container-lg">
+  
+    <a class="navbar-brand me-auto me-lg-3" href="/">My Docs</a>
+
+    
+    
+    <button type="button" id="searchToggleMobile" class="btn btn-link nav-link mx-2 d-lg-none" aria-label="Search website">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <circle cx="10" cy="10" r="7"></circle>
+        <line x1="21" y1="21" x2="15" y2="15"></line>
+      </svg>
+    </button>
+    
+    <button class="btn btn-link d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavSection" aria-controls="offcanvasNavSection" aria-label="Open section navigation menu">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-dots-vertical" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+        <path d="M12 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+        <path d="M12 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+      </svg>
+    </button>
+    <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="offcanvasNavSection" aria-labelledby="offcanvasNavSectionLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavSectionLabel">Docs</h5>
+        <button type="button" class="btn btn-link nav-link p-0 ms-auto" data-bs-dismiss="offcanvas" aria-label="Close">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M18 6l-12 12"></path>
+            <path d="M6 6l12 12"></path>
+          </svg>
+        </button>
+      </div>
+      <div class="offcanvas-body">
+        <aside class="doks-sidebar mt-n3">
+          <nav id="doks-docs-nav" aria-label="Tertiary navigation">
+            
+  
+    
+<nav class="section-nav docs-links">
+  <ul class="list-unstyled">
+
+  <li>
+    <details open open>
+      <summary>玩客云折腾日记</summary>
+      <ul class="list-unstyled list-nested">
+
+  <li class="active" >
+      <a aria-current="page" href="/docs/guides/%E6%95%85%E4%BA%8B%E5%BC%80%E7%AB%AF/">故事开端</a>
+  </li>
+
+  <li>
+      <a href="/docs/guides/%E7%A1%AC%E4%BB%B6%E4%B8%80%E8%A7%88/">硬件一览</a>
+  </li>
+
+  <li>
+      <a href="/docs/guides/%E5%88%B7%E6%9C%BA/">刷机</a>
+  </li>
+
+  <li>
+      <a href="/docs/guides/%E9%83%A8%E7%BD%B2%E7%8E%AF%E8%8A%82/">部署环节</a>
+  </li>
+      </ul>
+    </details>
+  </li>
+
+  <li>
+    <details open>
+      <summary>怎么使用</summary>
+      <ul class="list-unstyled list-nested">
+
+  <li>
+      <a href="/docs/how/%E6%98%A0%E5%B0%84smb/">映射SMB</a>
+  </li>
+
+  <li>
+      <a href="/docs/how/%E5%B0%8F%E9%9B%85alist/">小雅Alist</a>
+  </li>
+
+  <li>
+      <a href="/docs/how/%E8%BF%98%E6%9C%89/">还有</a>
+  </li>
+
+  <li>
+      <a href="/docs/how/ending/">Ending</a>
+  </li>
+      </ul>
+    </details>
+  </li>
+
+  <li>
+    <details>
+      <summary>Reference</summary>
+      <ul class="list-unstyled list-nested">
+
+  <li>
+      <a href="/docs/reference/resources/">Resources</a>
+  </li>
+      </ul>
+    </details>
+  </li>
+  </ul>
+</nav>
+
+  
+
+          </nav>
+        </aside>
+      </div>
+    </div>
+    
+    <button class="btn btn-link nav-link mx-2 order-3 d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavMain" aria-controls="offcanvasNavMain" aria-label="Open main navigation menu">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <line x1="4" y1="8" x2="20" y2="8"></line>
+        <line x1="4" y1="16" x2="20" y2="16"></line>
+      </svg>
+    </button>
+
+    
+    <div class="offcanvas offcanvas-end h-auto" tabindex="-1" id="offcanvasNavMain" aria-labelledby="offcanvasNavMainLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavMainLabel">My Docs</h5>
+        <button type="button" class="btn btn-link nav-link p-0 ms-auto" data-bs-dismiss="offcanvas" aria-label="Close">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M18 6l-12 12"></path>
+            <path d="M6 6l12 12"></path>
+         </svg>
+        </button>
+      </div>
+      
+      <div class="offcanvas-body d-flex flex-column flex-lg-row justify-content-between">
+        <ul class="navbar-nav flex-grow-1"><li class="nav-item">
+                <a class="nav-link active" href="http://localhost:1313/docs/guides/%E6%95%85%E4%BA%8B%E5%BC%80%E7%AB%AF/" aria-current="true">Docs</a>
+              </li>
+            </ul>
+
+        
+        
+        <button type="button" id="searchToggleDesktop" class="btn btn-link nav-link p-2 d-none d-lg-block" aria-label="Search website">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <circle cx="10" cy="10" r="7"></circle>
+            <line x1="21" y1="21" x2="15" y2="15"></line>
+          </svg>
+        </button>
+        
+        
+        
+        <button id="buttonColorMode" class="btn btn-link mx-auto nav-link p-0 ms-lg-2 me-lg-1" type="button" aria-label="Toggle theme">
+          <svg data-bs-theme-value="dark" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-moon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"></path>
+          </svg>
+          <svg data-bs-theme-value="light" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-sun" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0m-5 0h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7"></path>
+          </svg>
+        </button>
+        
+        <ul id="socialMenu" class="nav mx-auto flex-row order-lg-4">
+          <li class="nav-item">
+              <a class="nav-link social-link" href="https://github.com/radclyf732/radclyf732.gitHub.io/"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path></svg><small class="ms-2 visually-hidden">GitHub</small></a>
+            </li>
+          </ul>
+        
+        </div>
+    </div>
+
+    
+    </div>
+</header>
+</div>
+
+<div class="modal" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-fullscreen-md-down">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5 visually-hidden" id="searchModalLabel">Search</h1>
+        <button type="button" class="btn-close visually-hidden" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="search-input flex-grow-1 d-none">
+          <form id="search-form" class="search-form" action="#" method="post" accept-charset="UTF-8" role="search">
+            <label for="query" class="visually-hidden">Search</label>
+            <div class="d-flex">
+              <input type="search" id="query" name="query" class="search-text form-control form-control-lg" placeholder="Search" aria-label="Search" maxlength="128" autocomplete="off">
+              <button type="button" class="btn btn-link text-decoration-none px-0 ms-3 d-md-none" data-bs-dismiss="modal" aria-label="Close">Cancel</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="modal-body">
+        <p class="search-loading status message d-none mt-3 text-center">Loading search index…</p>
+        <p class="search-no-recent message d-none mt-3 text-center">No recent searches</p>
+        <p class="search-no-results message d-none mt-3 text-center">No results for "<strong><span class="query-no-results">Query here</span></strong>"</p>
+        <div id="searchResults" class="search-results"></div>
+        <template>
+          <article class="search-result list-view">
+            <div class="card my-3">
+              <div class="card-body">
+                <header>
+                  <h2 class="h5 title title-submitted mb-0"><a class="stretched-link text-decoration-none text-reset" href="#">Title here</a></h2>
+                  <div class="submitted d-none"><time class="created-date">Date here</time></div>
+                </header>
+                <div class="content">Summary here</div>
+              </div>
+            </div>
+          </article>
+        </template>
+      </div>
+      <div class="modal-footer">
+        <ul class="list-inline me-auto d-none d-md-block">
+          <li class="list-inline-item"><kbd class="me-2"><svg width="15" height="15" aria-label="Enter key" role="img"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"><path d="M12 3.53088v3c0 1-1 2-2 2H4M7 11.53088l-3-3 3-3"></path></g></svg></kbd><span class="DocSearch-Label">to select</span></li>
+          <li class="list-inline-item"><kbd class="me-2"><svg width="15" height="15" aria-label="Arrow down" role="img"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"><path d="M7.5 3.5v8M10.5 8.5l-3 3-3-3"></path></g></svg></kbd><kbd class="me-2"><svg width="15" height="15" aria-label="Arrow up" role="img"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"><path d="M7.5 11.5v-8M10.5 6.5l-3-3-3 3"></path></g></svg></kbd><span class="DocSearch-Label">to navigate</span></li>
+          <li class="list-inline-item"><kbd class="me-2"><svg width="15" height="15" aria-label="Escape key" role="img"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"><path d="M13.6167 8.936c-.1065.3583-.6883.962-1.4875.962-.7993 0-1.653-.9165-1.653-2.1258v-.5678c0-1.2548.7896-2.1016 1.653-2.1016.8634 0 1.3601.4778 1.4875 1.0724M9 6c-.1352-.4735-.7506-.9219-1.46-.8972-.7092.0246-1.344.57-1.344 1.2166s.4198.8812 1.3445.9805C8.465 7.3992 8.968 7.9337 9 8.5c.032.5663-.454 1.398-1.4595 1.398C6.6593 9.898 6 9 5.963 8.4851m-1.4748.5368c-.2635.5941-.8099.876-1.5443.876s-1.7073-.6248-1.7073-2.204v-.4603c0-1.0416.721-2.131 1.7073-2.131.9864 0 1.6425 1.031 1.5443 2.2492h-2.956"></path></g></svg></kbd><span class="DocSearch-Label">to close</span></li>
+        </ul>
+        <p class="d-md-none">Search by <a class="text-decoration-none" href="https://github.com/nextapps-de/flexsearch">FlexSearch</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <div class="wrap container-lg" role="document">
+      <div class="content">
+      
+        
+	<div class="row flex-xl-nowrap">
+		<div class="col-lg-5 col-xl-4 docs-sidebar d-none d-lg-block">
+			
+  
+    
+<nav class="section-nav docs-links">
+  <ul class="list-unstyled">
+
+  <li>
+    <details open open>
+      <summary>玩客云折腾日记</summary>
+      <ul class="list-unstyled list-nested">
+
+  <li class="active" >
+      <a aria-current="page" href="/docs/guides/%E6%95%85%E4%BA%8B%E5%BC%80%E7%AB%AF/">故事开端</a>
+  </li>
+
+  <li>
+      <a href="/docs/guides/%E7%A1%AC%E4%BB%B6%E4%B8%80%E8%A7%88/">硬件一览</a>
+  </li>
+
+  <li>
+      <a href="/docs/guides/%E5%88%B7%E6%9C%BA/">刷机</a>
+  </li>
+
+  <li>
+      <a href="/docs/guides/%E9%83%A8%E7%BD%B2%E7%8E%AF%E8%8A%82/">部署环节</a>
+  </li>
+      </ul>
+    </details>
+  </li>
+
+  <li>
+    <details open>
+      <summary>怎么使用</summary>
+      <ul class="list-unstyled list-nested">
+
+  <li>
+      <a href="/docs/how/%E6%98%A0%E5%B0%84smb/">映射SMB</a>
+  </li>
+
+  <li>
+      <a href="/docs/how/%E5%B0%8F%E9%9B%85alist/">小雅Alist</a>
+  </li>
+
+  <li>
+      <a href="/docs/how/%E8%BF%98%E6%9C%89/">还有</a>
+  </li>
+
+  <li>
+      <a href="/docs/how/ending/">Ending</a>
+  </li>
+      </ul>
+    </details>
+  </li>
+
+  <li>
+    <details>
+      <summary>Reference</summary>
+      <ul class="list-unstyled list-nested">
+
+  <li>
+      <a href="/docs/reference/resources/">Resources</a>
+  </li>
+      </ul>
+    </details>
+  </li>
+  </ul>
+</nav>
+
+  
+
+		</div>
+		
+		<nav class="docs-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation">
+			<div class="page-links">
+  <h3>On this page</h3>
+    <nav id="toc">
+  <ul>
+    <li>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#参考">参考</a></li>
+  </ul>
+</nav>
+</div>
+
+		</nav>
+		<main class="docs-content col-lg-11 col-xl-9">
+		
+			<h1>故事开端</h1>
+			
+			<nav class="toc-mobile d-xl-none" aria-label="Quaternary navigation">
+				<details>
+    <summary>On this page</summary>
+    <div class="page-links">
+      <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#参考">参考</a></li>
+  </ul>
+</nav>
+    </div>
+  </details>
+
+			</nav>
+			<blockquote>
+<p>2017年10月31日,迅雷旗下全新一代共享经济智能硬件——玩客云战略发布会在北京举办，当天迅雷CEO、网心科技CEO陈磊宣布，迅雷将自玩客云开始，全面迈入“共享计算”全新战略布局时代。陈磊称，未来迅雷将持续加大对共享计算的探索，并将在为B端企业客户提供服务的同时，向所有普通个人用户开放共享计算服务<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>。</p>
+</blockquote>
+<p>如果当时的你买了一台<strong>玩客云</strong>将它连接硬盘加入链克计划，那么你的设备加硬盘就相当于一个小型的CDN服务器，它会接受相应的下载请求或网络缓存请求，这些缓存将为你周围的上网用户提供网络加速。</p>
+<p>当然这些下载或缓存任务是由迅雷网心提供的，网心科技将用户提供的CDN资源进行整合打包出售给企业用户（XX直播，XXTV），而作为提供CDN的用户可以得到相应的代币（链克）作为报酬，而这些代币就是基于区块链技术（不可增发，无法伪造）生成的，用户可以选择将其进行出售或交换。</p>
+<p>这可以说是一个互利的模式：用户提供限制的网络带宽获取代币，网心通过将用户提供的CDN资源整合进行出售<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>。
+
+<figure>
+  <img
+    srcset="data:image/webp;base64,UklGRtIAAABXRUJQVlA4IMYAAADQBACdASoVABwAP1mYuk6pJaKhMBgIASYrCewAnQAOjVJi/mqcL9y//BoRI0PgAAD&#43;GbWfI/isYytVIVErVfgMbI9AHggKLrw&#43;GVMf9q28/YIK&#43;jn/ePOI4Trq4h7/bVP2&#43;Bo//BO39AQJWC2Uxb4j6drZruhTgD2DXnpML0ufICMP3Ug20ih/GxNBoVqh6564wUNEwjPEivhsE3/r/xGSGRaes5zPu5wgVogV1KT648zg1Ir6QK9xQF5oq&#43;gmYF3ZokEAAAA="
+        data-srcset="/docs/guides/IMG_20240531_171946_hu1a6577c9fd819f63c29fd78376a2b058_2986879_fc330a8759fe89b31b9ee085c6bb76fb.webp 480w,/docs/guides/IMG_20240531_171946_hu1a6577c9fd819f63c29fd78376a2b058_2986879_a28a36e96fe250bc8f5b711fe7c06de4.webp 576w,/docs/guides/IMG_20240531_171946_hu1a6577c9fd819f63c29fd78376a2b058_2986879_ab56f11c48abc5205cd80131f411065e.webp 768w,/docs/guides/IMG_20240531_171946_hu1a6577c9fd819f63c29fd78376a2b058_2986879_78ba15a8c5797e25ac65ac2e9309b414.webp 1025w,/docs/guides/IMG_20240531_171946_hu1a6577c9fd819f63c29fd78376a2b058_2986879_08e938ce3121614a6f4d91169caad0ee.webp 1200w,/docs/guides/IMG_20240531_171946_hu1a6577c9fd819f63c29fd78376a2b058_2986879_ac42d1454f58213102019b86fc47fb6d.webp 1440w,/docs/guides/IMG_20240531_171946_hu1a6577c9fd819f63c29fd78376a2b058_2986879_d62c27d95cbe426d43fcee1c32b26037.webp 3000w"
+        data-sizes="auto"
+    src="/docs/guides/IMG_20240531_171946_hu1a6577c9fd819f63c29fd78376a2b058_2986879_e8074c174f8df78bf22cd3769dff4100.jpg"
+    width="3000"
+    height="4000"
+    decoding="async"
+    fetchpriority="high"
+    loading="eager"
+    alt="这玩意就是"
+    class="lazyload blur-up"
+  ><figcaption>这玩意就是，于2023年3月4日收自海鲜市场</figcaption>
+</figure></p>
+<p>这台迅雷发布的矿机，可以作为个人存储使用。定价599，还一度供不应求，最疯狂的时候黄牛二手炒到2000多。</p>
+<p>后期就是逐渐凉凉，先是跟“子公司”迅雷金融（已改名）撕了一架，导致币价下挫，迅雷网心被互金协会点名指出其实在变相进行ICO，网心科技随即对链克进行“自宫”，关闭了链克在国内的提币功能<sup id="fnref1:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>。</p>
+<p>时间慢慢过去，大批玩家退出，大量二手设备流入市场。终于，在2024年1月2日时玩客云官网也发布了公告，宣布于同年<strong>2月29日</strong>停止APP支持<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>。宣告其作为“个人存储”也凉到透底。</p>
+<p>大批低价的设备到越来越多人手里，依靠社区和开源的力量，这款机器被开发了许多用途：轻NAS、电视盒子、旁路由、打印服务器等等。虽然性能有限，</p>
+<h5 id="但是它的价格只需50多啥都能玩">但是它的价格只需50多！啥都能玩！<a href="#但是它的价格只需50多啥都能玩" class="anchor" aria-hidden="true">#</a> </h5>
+<h2 id="参考">参考<a href="#参考" class="anchor" aria-hidden="true">#</a> </h2>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://www.51cto.com/article/556042.html">https://www.51cto.com/article/556042.html</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://www.ithome.com/0/345/999.htm">https://www.ithome.com/0/345/999.htm</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://wky.onethingcloud.com/">https://wky.onethingcloud.com/</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+			<div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between">
+				</div>
+			<div class="page-nav d-flex flex-column flex-sm-row">
+	
+	<div class="card text-end w-100">
+			<div class="card-body d-flex justify-content-end">
+				<div class="d-flex flex-column">
+					<div class="text-body-secondary">Next</div>
+					<a href="/docs/guides/%E7%A1%AC%E4%BB%B6%E4%B8%80%E8%A7%88/" class="stretched-link text-reset text-decoration-none">硬件一览</a>
+				</div>
+				<div class="d-flex flex-column justify-content-center">
+					<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-right" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+						<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+						<path d="M5 12l14 0"></path>
+						<path d="M13 18l6 -6"></path>
+						<path d="M13 6l6 6"></path>
+					</svg>
+				</div>
+			</div>
+		</div>
+	</div>
+
+			
+		</main>
+		
+	</div>
+
+      
+      </div>
+    </div>
+    
+    
+    <footer class="footer text-muted">
+  <div class="container-lg">
+    <div class="row">
+      <div class="col-lg-8 text-center text-lg-start">
+        <ul class="list-inline">
+          <li class="list-inline-item"><a class="text-muted" href="/privacy/">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-8 text-center text-lg-end">
+        <ul class="list-inline">
+          <li class="list-inline-item">Brought to you by <a class="text-muted" href="https://gethyas.com/">Hyas</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    
+
+<script async
+  src="/js/app.221d2f6f0d7e0067b9517e0ccd349cbf6db6621b33e17cb263e426627f617125.js"
+  integrity="sha256-Ih0vbw1&#43;AGe5UX4MzTScv222Yhsz4XyyY&#43;QmYn9hcSU=">
+</script>
+
+
+
+
+
+<script async
+  src="/js/flexsearch.a43ad3e9453067320ab808b85ef437fc65518a219cfea8499e744b7b6f0b6924.js"
+  integrity="sha256-pDrT6UUwZzIKuAi4XvQ3/GVRiiGc/qhJnnRLe28LaSQ=">
+</script>
+<script async
+  src="/js/search-modal.543117a85590123cda9e96d1fcbf8bd22fc1a3a3ca3d31a816382f0f10f30a34.js"
+  integrity="sha256-VDEXqFWQEjzanpbR/L&#43;L0i/Bo6PKPTGoFjgvDxDzCjQ=">
+</script>
+
+    <div class="d-inline-flex fixed-bottom-right pb-4 pe-4">
+  <button id="toTop" type="button" class="btn btn-primary rounded-circle ms-auto p-2"><span class="visually-hidden">Top</span><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-up" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M6 15l6 -6l6 6"></path></svg></button>
+</div>
+
+    
+  </body>
+</html>

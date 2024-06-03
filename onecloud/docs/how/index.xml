@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>怎么使用 on My Docs</title>
+    <link>http://localhost:1313/docs/how/</link>
+    <description>Recent content in 怎么使用 on My Docs</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2020-2024 Hyas</copyright>
+    <lastBuildDate>Mon, 13 May 2024 13:05:04 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/docs/how/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>映射SMB</title>
+      <link>http://localhost:1313/docs/how/%E6%98%A0%E5%B0%84smb/</link>
+      <pubDate>Mon, 13 May 2024 13:05:04 +0800</pubDate>
+      <guid>http://localhost:1313/docs/how/%E6%98%A0%E5%B0%84smb/</guid>
+      <description>直白点说，能让你局域网里的设备能访问到你插进去的U盘里的文件。就像在本地访问一样，视频音频啥的都可以直接播放和编辑。这是作为Nas的核心功能&#xA;服务端配置 1.首先在(局域网任意手机电脑!)浏览器点开CasaOS主页的Files&#xA;2.在左边找到你的硬盘名字，右键选中你U盘里面需要共享的文件夹，选共享1&#xA;Windows客户端 只需复制那个给出的文件地址，贴到文件管理器里面回车就行 然后就可以像本地文件那样使用了；为了方便访问，还可以&#xA;a.将共享文件夹映射成网络驱动器，打开Windows文件管理器就能看到，更加方便。 b.也可以在桌面，右键，新建快捷方式，对象位置填前面访问的地址。 Android客户端 同样也是添加完服务器之后就能像本地文件一样复制粘贴编辑修改&#xA;方案1.使用质感文件APP 左上角菜单，添加储存空间，SMB服务器 方案2.使用FolderSync Pro，点击下载添加SMB服务器 因为是白嫖的文件服务器限制很多，&#xA;请下载文件后把后缀改为APK再安装，谢谢.&#xA;如果还是觉得麻烦可以联系作者本人微信私发&#xA;创建一个“SMB账户”，软件使用不再赘述。相比方案1支持多选文件上传。 在相册或者其他APP选择“共享”，用FolderSync Pro或者质感文件讲另存为，就能上传到前面配置好的SMB服务器&#xD;忘截图了这用的是别人的示例图&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
+    </item>
+    <item>
+      <title>小雅Alist</title>
+      <link>http://localhost:1313/docs/how/%E5%B0%8F%E9%9B%85alist/</link>
+      <pubDate>Mon, 13 May 2024 13:05:04 +0800</pubDate>
+      <guid>http://localhost:1313/docs/how/%E5%B0%8F%E9%9B%85alist/</guid>
+      <description>这个是重头戏！网罗了各路资源！&#xA;使用过才知道仿佛回到了那个互联网随处共享四处遨游的时代！&#xA;使用方法 很简单，只需在局域网下任何手机电脑平板的浏览器地址输入&#xA;玩客云IP:5678&#xD;直接就能访问！文件可以直接用浏览器播放，也可以调用Potplay等下载到本地！ Did you know?&#xA;如果提示加载内容错误，说明你给玩客云通电开机的时间不超过5分钟的干活。刚上电请耐心等待5-10分钟让这个弱鸡的CUP和emmc加载完成，再不行就拔电重启</description>
+    </item>
+    <item>
+      <title>还有</title>
+      <link>http://localhost:1313/docs/how/%E8%BF%98%E6%9C%89/</link>
+      <pubDate>Mon, 13 May 2024 13:05:04 +0800</pubDate>
+      <guid>http://localhost:1313/docs/how/%E8%BF%98%E6%9C%89/</guid>
+      <description>CasaOS的网页也可以SSH,还有App Store 等等,待你发掘&#xA;你可以用局域网任何能打开浏览器的设备对它进行SSH.&#xD;只要你在局域网,你能随时随地运行任何支持arm v7架构的软件和操作，就是一台7*24超低功耗的Linux小主机&#xA;这个板子性能基本是树莓派3B的两倍。成本大概是目前二手树莓派3的1/5～1/6&#xA;而且设备因为使用了廉价的 ARM 芯片，不光运行过程中的温度不算高，日常功耗也非常低,开机待机功率平均1.69W1&#xA;https://sspai.com/post/69873&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
+    </item>
+    <item>
+      <title>Ending</title>
+      <link>http://localhost:1313/docs/how/ending/</link>
+      <pubDate>Mon, 13 May 2024 13:05:04 +0800</pubDate>
+      <guid>http://localhost:1313/docs/how/ending/</guid>
+      <description>&#xD;一口气弄完了就是爽&#xA;Further reading Go to sleep </description>
+    </item>
+  </channel>
+</rss>
